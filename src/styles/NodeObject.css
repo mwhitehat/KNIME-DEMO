@@ -1,0 +1,59 @@
+/*styles for node object */
+
+.node-object {
+    padding: 5px;
+    position: absolute;
+  }
+  
+  .node-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .node-body-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .node-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .node-name {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+  }
+  
+  .node-status,
+  .node-type {
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  .inputs,
+  .outputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .inputs {
+    left: -10px;
+  }
+  
+  .outputs {
+    right: -10px;
+  }
+  
